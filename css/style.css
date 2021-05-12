@@ -3,7 +3,7 @@
     margin:0;
     padding:0;
 }
-/* inizo classi di layout */
+/* inizo classi di layout con il main */
 .container-fluid{
     width:100%;
     max-width:100%;
@@ -13,16 +13,13 @@ main .side-bar{
     width:15%;
     height:calc(100vh - 80px);
     background-color:#000000;
+    color:white;
 }
 main .content-main{
     width:85%;
     height:calc(100vh - 80px);
     background-color:#141921;
     overflow-y:scroll;
-}
-footer{
-    height:80px;
-    background-color:#282828;
 }
 main .content-main .opacity-bar{
     width:100%;
@@ -35,4 +32,21 @@ main .content-main .contenuto-album{
     width:100px;
     height:1500px;
     background-color:yellow;
+}
+/* inizio classi (NAV) footer */
+footer{
+    height:80px;
+    background-color:#282828;
+}
+footer .row{
+    justify-content:space-between;
+    align-items:baseline;
+}
+footer .row .container-footer-content{
+    width:15%;
+    height:50px;
+    border:1px solid white;
+}
+footer .row .center{
+    width:40%;
 }
