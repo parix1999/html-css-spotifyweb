@@ -2,6 +2,7 @@
     box-sizing:border-box;
     margin:0;
     padding:0;
+    font-family:Helvetica, Arial, sans-serif;
 }
 /* inizo classi di layout con il main */
 .container-fluid{
@@ -41,12 +42,32 @@ footer{
 footer.row{
     justify-content:space-between;
     align-items:center;
+    padding:10px;
 }
 footer.row .container-footer-content{
     width:15%;
     height:50px;
-    border:1px solid white;
+    display: inline-block;
+    /* border:1px solid white; */
 }
 footer.row .center{
     width:40%;
+}
+footer .container-footer-content img{
+    width:24%;
+    vertical-align:middle;
+}
+footer .container-footer-content .testo{
+    display:inline-block;
+    vertical-align:middle;
+    font-size:10px;
+    color:white;
+    margin-left:10px;
+}
+footer .description{
+    color:#838383;
+}
+footer .icon{
+    color:#838383;
+    margin-left:10px;
 }
