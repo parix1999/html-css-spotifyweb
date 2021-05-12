@@ -20,6 +20,10 @@ main .content-main{
     background-color:#141921;
 }
 footer{
-    height: 80px;
+    height:80px;
     background-color:#282828;
+}
+main .content-main .opacity-bar{
+    height:80px;
+    background-color:red;
 }
