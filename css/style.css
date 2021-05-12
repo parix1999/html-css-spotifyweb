@@ -38,15 +38,15 @@ footer{
     height:80px;
     background-color:#282828;
 }
-footer .row{
+footer.row{
     justify-content:space-between;
-    align-items:baseline;
+    align-items:center;
 }
-footer .row .container-footer-content{
+footer.row .container-footer-content{
     width:15%;
     height:50px;
     border:1px solid white;
 }
-footer .row .center{
+footer.row .center{
     width:40%;
 }
