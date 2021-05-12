@@ -48,11 +48,13 @@ footer.row .container-footer-content{
     width:15%;
     height:50px;
     display: inline-block;
-    /* border:1px solid white; */
+    border:1px solid white;
 }
 footer.row .center{
     width:40%;
+    color:white;
 }
+/* primo box sx */
 footer .container-footer-content img{
     width:24%;
     vertical-align:middle;
@@ -67,7 +69,17 @@ footer .container-footer-content .testo{
 footer .description{
     color:#838383;
 }
-footer .icon{
+footer .icon-sx{
     color:#838383;
     margin-left:10px;
+}
+/* box centralle footer */
+footer.row .center{
+    text-align:center;
+}
+footer .center .icon-center{
+    margin-left:20px;
+}
+footer .center .bigger{
+    font-size: 25px;
 }
