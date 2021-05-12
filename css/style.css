@@ -62,7 +62,7 @@ footer .container-footer-content img{
 footer .container-footer-content .testo{
     display:inline-block;
     vertical-align:middle;
-    font-size:10px;
+    font-size:12px;
     color:white;
     margin-left:10px;
 }
@@ -82,4 +82,16 @@ footer .center .icon-center{
 }
 footer .center .bigger{
     font-size: 25px;
+}
+footer .time, .barra, .time-2{
+    display:inline-block;
+    font-size:12px;
+    font-weight:bold;
+}
+footer .barra{
+    width:70%;
+    height:5px;
+    background-color:#838383;
+    border-radius:20px;
+    margin:0 20px 0 20px;    
 }
