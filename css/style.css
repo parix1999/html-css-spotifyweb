@@ -11,11 +11,15 @@
 }
 main .side-bar{
     width:15%;
-    height:100vh;
+    height:calc(100vh - 80px);
     background-color:#000000;
 }
 main .content-main{
     width:85%;
-    height:100vh;
+    height:calc(100vh - 80px);
     background-color:#141921;
+}
+footer{
+    height: 80px;
+    background-color:#282828;
 }
