@@ -167,7 +167,7 @@ footer .left{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:15px 0 0 15px;
+    /* padding:15px 0 0 15px; */
 }
 footer .left img{
     width:45px;
@@ -184,13 +184,17 @@ footer .color-text-icon{
 }
 /* secondo container */
 footer .center{
-    padding:15px 15px 0 15px;
+    /* padding:15px 15px 0 15px; */
     color:white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+footer .centratura-center{
     text-align:center;
 }
 footer .icone-space{
     width:300px;
-    text-align:center;
     display:inline-block;
 }
 footer .special{
@@ -203,6 +207,13 @@ footer .special{
 footer .number, .barra, .number{
     display:inline-block;
     font-size:8px;
+}
+/* terzo container */
+footer .right{
+    display:flex;
+    align-items:center;
+    color:white;
+    /* padding:15px 15px 0 15px; */
 }
 footer .barra{
     width:400px;
