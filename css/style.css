@@ -92,13 +92,13 @@ main .space i:first-child{
 main .space span:last-child{
     font-size:15px;
 }
+main .third-text{
+    color:white;
+    margin:100px 0 20px 0;
+}
 main .third-text img{
     width:15px;
     vertical-align:middle;
-}
-main .third-text{
-    color:white;
-    margin-top:40px;
 }
 main .account img{
     background-color:gray;
@@ -110,6 +110,10 @@ main .download{
     margin-bottom:20px;
     border-bottom:1px solid gray;
 }
+main .account span:last-child{
+    color:white;
+    font-size:15px;
+}
 /* lista side bar */
 main ul{
     list-style-type:none;
@@ -118,6 +122,25 @@ main ul{
 main li{
     margin-top:20px;
 }
+/* inizio classi del contenuto principale immagini album */
+main .album-content{
+    margin-top:100px;
+}
+main .album-content ul{
+    text-align:center;
+}
+main .album-content li{
+    display:inline-block;
+    margin-right:20px;
+    font-size:11px;
+    margin-top:0;
+    font-weight:bold;
+    color:#76797e;
+}
+
+
+
+
 
 /* main .content-main .contenuto-album{
     width:100px;
