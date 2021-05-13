@@ -54,6 +54,9 @@ main .botton-upgrade{
     text-align: center;
 }
 /* classi side bar */
+.space{
+    margin-top:15px;
+}
 main .side-bar>img{
     width:100px;
     margin-top:20px;
@@ -75,7 +78,18 @@ main .first-text img{
     font-size:14px;
     font-weight: bold;
 }
-
+main .tittle{
+    font-weight: bold;
+}
+main .space i:first-child{
+    font-size:50px;
+    vertical-align:middle;
+    margin-right:5px;
+    color:#6f6f6f;
+}
+main .space span:last-child{
+    font-size:15px;
+}
 /* main .content-main .contenuto-album{
     width:100px;
     height:1500px;
