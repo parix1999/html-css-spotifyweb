@@ -95,6 +95,8 @@ main .space span:last-child{
 main .third-text{
     color:white;
     margin:100px 0 20px 0;
+    position: absolute;
+    bottom: 5px;
 }
 main .third-text img{
     width:15px;
@@ -157,7 +159,24 @@ footer{
 }
 footer.row .left, .center, .right{
     border:1px solid white;
+    padding:15px 0 0 15px;
 }
 footer .center{
     flex-grow:2;
 }
+footer .left{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+footer .left img{
+    width:35px;
+}
+footer .text-nav{
+    color:white;
+    font-size:12px;
+}
+footer .color-text-icon{
+    color:#868686;
+}
+
