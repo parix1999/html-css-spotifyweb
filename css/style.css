@@ -59,16 +59,16 @@ main .botton-upgrade{
 .space{
     margin-top:15px;
 }
-main .side-bar>img{
+main .first-text .logo>img{
     width:100px;
-    margin-top:20px;
+    padding:10px 0 10px 0;
 }
 [class*="icon-main"]{
     margin-right:5px;
 }
 main .first-text{
     margin-top:20px;
-    line-height:30px;
+    line-height:40px;
 }
 main .first-text img{
     width:20px;
@@ -99,6 +99,7 @@ main .third-text{
 main .third-text img{
     width:15px;
     vertical-align:middle;
+   
 }
 main .account img{
     background-color:gray;
@@ -137,6 +138,7 @@ main .album-content li{
     font-weight:bold;
     color:#76797e;
 }
+
 
 
 
