@@ -36,6 +36,8 @@ main .opacity-bar{
     color:white;
     align-items: center;
     font-weight: bold;
+    font-size:13px;
+
 }
 main .botton-upgrade{
     border:1px solid white;
@@ -44,7 +46,6 @@ main .botton-upgrade{
     height:40px;
     line-height:40px;
     text-align: center;
-    font-size:14px;
 }
 
 
@@ -61,4 +62,7 @@ footer{
 }
 footer.row .left, .center, .right{
     border:1px solid white;
+}
+footer.row{
+    justify-content: space-between;
 }
