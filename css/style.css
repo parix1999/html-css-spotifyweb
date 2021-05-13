@@ -90,6 +90,18 @@ main .space i:first-child{
 main .space span:last-child{
     font-size:15px;
 }
+/* lista side bar */
+main ul{
+    list-style-type:none;
+    color:#6f6f6f;
+}
+main li{
+    margin-top:20px;
+}
+
+
+
+
 /* main .content-main .contenuto-album{
     width:100px;
     height:1500px;
