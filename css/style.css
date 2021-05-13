@@ -159,7 +159,6 @@ footer{
 }
 footer.row .left, .center, .right{
     border:1px solid white;
-    padding:15px 0 0 15px;
 }
 footer .center{
     flex-grow:2;
@@ -168,6 +167,7 @@ footer .left{
     display:flex;
     justify-content:space-between;
     align-items:center;
+    padding:15px 0 0 15px;
 }
 footer .left img{
     width:35px;
@@ -179,4 +179,21 @@ footer .text-nav{
 footer .color-text-icon{
     color:#868686;
 }
-
+/* secondo container */
+footer .center{
+    display:flex;
+    justify-content:center;
+    padding:15px 15px 0 15px;
+    color:white;
+}
+footer .icone-space{
+    width:300px;
+    text-align:center;
+}
+footer .special{
+    font-size:25px;
+}
+[class*="icon-bottom"]{
+    font-size:15px;
+    margin-right:15px;
+}
