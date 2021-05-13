@@ -5,19 +5,21 @@
     font-family:Helvetica, Arial, sans-serif;
 }
 /* inizo classi di layout con il main */
-.container-fluid{
+.container-fluid-2{
     width:100%;
     max-width:100%;
-    background-color:red;
+    display:flex;
+    flex-direction:column;
+}
+main{
+    flex-grow:1;
 }
 main .side-bar{
-    width:15%;
     height:calc(100vh - 80px);
     background-color:#000000;
     color:white;
 }
 main .content-main{
-    width:85%;
     height:calc(100vh - 80px);
     background-color:#141921;
     overflow-y:scroll;
@@ -26,75 +28,26 @@ main .content-main .opacity-bar{
     width:100%;
     height:80px;
     position:fixed;
-    background-color:#080b11;
-    opacity:0.5;
+    background-color:rgba(8, 11, 17, .5);
 }
+/* classi content main */
+main .opacity-bar{
+    display:flex;
+    color:white;
+}
+
+
 /* main .content-main .contenuto-album{
     width:100px;
     height:1500px;
     background-color:yellow;
 } */
+
 /* inizio classi (NAV) footer */
 footer{
     height:80px;
     background-color:#282828;
 }
-footer.row{
-    justify-content:space-between;
-    align-items:center;
-    padding:10px;
-}
-footer.row .container-footer-content{
-    width:15%;
-    height:50px;
-    display: inline-block;
+footer.row .left, .center, .right{
     border:1px solid white;
-}
-footer.row .center{
-    width:40%;
-    color:white;
-}
-/* primo box sx */
-footer .container-footer-content img{
-    width:24%;
-    vertical-align:middle;
-}
-footer .container-footer-content .testo{
-    display:inline-block;
-    vertical-align:middle;
-    font-size:10px;
-    color:white;
-    margin-left:10px;
-}
-footer .container-footer-content:last-child{
-    margin-left:0;
-}
-footer .description{
-    color:#838383;
-}
-footer .icon-sx{
-    color:#838383;
-    margin-left:10px;
-}
-/* box centralle footer */
-footer.row .center{
-    text-align:center;
-}
-footer .center .icon-center{
-    margin-left:20px;
-}
-footer .center .bigger{
-    font-size: 25px;
-}
-footer .time, .barra, .time-2{
-    display:inline-block;
-    font-size:10px;
-    font-weight:bold;
-}
-footer .barra{
-    width:70%;
-    height:5px;
-    background-color:#838383;
-    border-radius:20px;
-    margin:0 20px 0 20px;    
 }
