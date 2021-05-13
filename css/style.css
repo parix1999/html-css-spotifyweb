@@ -54,7 +54,7 @@ main .botton-upgrade{
     text-align: center;
 }
 /* classi side bar */
-main .side-bar img{
+main .side-bar>img{
     width:100px;
     margin-top:20px;
 }
@@ -63,10 +63,17 @@ main .side-bar img{
 }
 main .first-text{
     margin-top:20px;
-    line-height:20px;
+    line-height:30px;
 }
 main .first-text img{
     width:20px;
+    vertical-align: middle;
+}
+[class*="icon-text"]{
+    vertical-align: middle;
+    color:#6f6f6f;
+    font-size:14px;
+    font-weight: bold;
 }
 
 /* main .content-main .contenuto-album{
