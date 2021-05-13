@@ -18,6 +18,9 @@ main .side-bar{
     height:calc(100vh - 80px);
     background-color:#000000;
     color:white;
+    padding-left:10px;
+    position:relative;
+    z-index:101;
 }
 main .content-main{
     height:calc(100vh - 80px);
@@ -36,18 +39,35 @@ main .opacity-bar{
     color:white;
     align-items: center;
     font-weight: bold;
-    font-size:13px;
-
+    font-size:11px;
+    left:0;
+    justify-content:flex-end;
+    z-index:100;
+    padding:0 30px;
 }
 main .botton-upgrade{
     border:1px solid white;
     border-radius:50px;
-    width:250px;
+    width:200px;
     height:40px;
     line-height:40px;
     text-align: center;
 }
-
+/* classi side bar */
+main .side-bar img{
+    width:100px;
+    margin-top:20px;
+}
+[class*="icon-main"]{
+    margin-right:5px;
+}
+main .first-text{
+    margin-top:20px;
+    line-height:20px;
+}
+main .first-text img{
+    width:20px;
+}
 
 /* main .content-main .contenuto-album{
     width:100px;
@@ -63,6 +83,6 @@ footer{
 footer.row .left, .center, .right{
     border:1px solid white;
 }
-footer.row{
-    justify-content: space-between;
+footer .center{
+    flex-grow:2;
 }
