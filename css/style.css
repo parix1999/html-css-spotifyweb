@@ -221,3 +221,17 @@ footer .barra{
     border-radius:50px;
     background:#5a5a5a;
 }
+[class*="icon-bottom-dx"]{
+    font-size:10px;
+    margin-right:10px;
+}
+footer .icon-dx i:last-child{
+    margin-right:0;
+}
+footer .barra-volume{
+    width:100px;
+    height:5px;
+    border-radius:50px;
+    background:#5a5a5a;
+    margin-left:5px;
+}
