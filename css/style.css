@@ -161,12 +161,18 @@ main .content-text{
     border:1px solid white;
 }
 main .container-album-orizontal{
+    width:100%;
     display:flex;
     flex-wrap:wrap;
     justify-content:space-between;
 }
 main .create-for-the-profile{
     margin:30px 0;
+}
+main .container-album-orizontal-2{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
 }
 
 
