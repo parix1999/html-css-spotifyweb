@@ -140,8 +140,22 @@ main .album-content li{
     font-weight:bold;
     color:#76797e;
 }
-
-
+/* inizio classi degli album */
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+.fl{
+    float:left;
+}
+main .container-photo{
+    width:200px;
+    margin:0 15px 0 15px;
+}
+main .container-photo img{
+    width:200px;
+}
 
 
 
@@ -156,9 +170,6 @@ main .album-content li{
 footer{
     height:80px;
     background-color:#282828;
-}
-footer.row .left, .center, .right{
-    border:1px solid white;
 }
 footer .center{
     flex-grow:2;
@@ -177,7 +188,7 @@ footer .larghezza{
 }
 footer .text-nav{
     color:white;
-    font-size:8px;
+    font-size:12px;
 }
 footer .color-text-icon{
     color:#868686;
