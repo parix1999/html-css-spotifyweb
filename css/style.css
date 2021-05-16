@@ -68,7 +68,7 @@ main .logo, .install-app, .john{
 main .top-part{
     display:flex;
     flex-direction:column;
-    height:calc(100% - 100px);
+    min-height:200px;
 }
 main .bottom-part{
     height:100px;
