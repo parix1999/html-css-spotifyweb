@@ -56,68 +56,70 @@ main .botton-upgrade{
     text-align: center;
 }
 /* classi side bar */
-.space{
-    margin-top:15px;
+main .side-bar{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
 }
-main .first-text .logo>img{
-    width:100px;
-    padding:10px 0 10px 0;
+main .logo, .install-app, .john{
+    width:140px;
+    height:50px;
 }
-[class*="icon-main"]{
-    margin-right:5px;
+main .top-part{
+    display:flex;
+    flex-direction:column;
+    height:calc(100% - 100px);
 }
-main .first-text{
+main .bottom-part{
+    height:100px;
+}
+main .content-list{
+    width:140px;
+    height:calc(100% - 160px);
+    flex-grow:1;
+    flex-shrink: 1;
+    overflow: auto;
+}
+main .logo{
     margin-top:20px;
-    line-height:40px;
+
 }
-main .first-text img{
+main .list-spotify{
+    width:140px;
+}
+main .list-spotify img{
+    width:20px;
+    vertical-align:middle;
+}
+main .text-list{
+    vertical-align:middle;
+}
+main .list-spotify li{
+    margin-top:10px;
+}
+main .list-spotify ul:last-child{
+    margin-top:20px;
+}
+main .plus i{
+    width:50px;
+}
+
+main .install-app img, .john img{
     width:20px;
     vertical-align: middle;
 }
-[class*="icon-text"]{
-    vertical-align: middle;
-    color:#6f6f6f;
-    font-size:14px;
-    font-weight: bold;
+main .install-app{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
-main .tittle{
-    font-weight: bold;
-}
-main .space i:first-child{
-    font-size:50px;
-    vertical-align:middle;
-    margin-right:5px;
-    color:#6f6f6f;
-}
-main .space span:last-child{
-    font-size:15px;
-}
-main .third-text{
-    color:white;
-    margin:100px 0 20px 0;
-    position: absolute;
-    bottom: 5px;
-}
-main .third-text img{
-    width:15px;
-    vertical-align:middle;
-   
-}
-main .account img{
-    background-color:gray;
-    width:20px;
-    height:20px;
+main .john img{
     border-radius:50%;
+    background-color: gray;
+    height:20px;
 }
-main .download{
-    margin-bottom:20px;
-    border-bottom:1px solid gray;
-}
-main .account span:last-child{
-    color:white;
-    font-size:15px;
-}
-/* lista side bar */
+
+/* lista side bar e anche inizio page album */
 main ul{
     list-style-type:none;
     color:#6f6f6f;
