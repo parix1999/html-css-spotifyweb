@@ -215,13 +215,6 @@ main .radius{
 .container-image-text:hover .icon-cover{
     display:block;
 }
-
-/* main .content-main .contenuto-album{
-    width:100px;
-    height:1500px;
-    background-color:yellow;
-} */
-
 /* inizio classi (NAV) footer */
 footer{
     height:80px;
@@ -276,8 +269,6 @@ footer .icon-sx{
     color:gray;
 
 }
-
-
 /* secondo container */
 footer .container-icon-center{
     width: 200px;
