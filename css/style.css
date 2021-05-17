@@ -127,6 +127,24 @@ main ul{
 main li{
     margin-top:20px;
 }
+main .content-list ul li:first-child{
+    color:white;
+    font-weight: bold;
+}
+main .content-list ul li .playlist-text{
+    padding-left:10px;
+}
+/* classi hover sidebar */
+.content-list ul li a{
+    text-decoration: none;
+    color:#6f6f6f; 
+}
+.content-list ul li a:hover{
+    color:white;
+}
+
+
+
 /* inizio classi del contenuto principale immagini album */
 main .album-content{
     margin-top:100px;
