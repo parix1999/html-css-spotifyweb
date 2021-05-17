@@ -93,6 +93,7 @@ main .list-spotify img{
 }
 main .text-list{
     vertical-align:middle;
+    padding-left:10px;
 }
 main .list-spotify li{
     margin-top:10px;
@@ -103,7 +104,6 @@ main .list-spotify ul:last-child{
 main .plus i{
     width:50px;
 }
-
 main .install-app img, .john img{
     width:20px;
     vertical-align: middle;
@@ -142,6 +142,13 @@ main .content-list ul li .playlist-text{
 .content-list ul li a:hover{
     color:white;
 }
+.list-spotify ul li a{
+    text-decoration: none;
+    color:#6f6f6f; 
+}
+.list-spotify ul li a:hover{
+    color:white;
+}
 
 
 
@@ -168,8 +175,6 @@ main .album-content li{
 .album-content ul li a:hover{
     color:white;
 }
-
-
 /* inizio classi degli album */
 .clearfix:after{
     content:"";
