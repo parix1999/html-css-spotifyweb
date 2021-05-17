@@ -173,6 +173,7 @@ main .no-margin{
 }
 main .container-photo img{
     width:100%;
+    display:block;
 }
 main .text-album{
     color:white;
