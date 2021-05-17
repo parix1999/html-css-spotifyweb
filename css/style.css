@@ -381,14 +381,16 @@ footer .barra{
 footer .color{
     width:25%;
     height:5px;
-    background-color: green;
+    background-color: lightgray;
     display:inline-block;
     margin-bottom:10px;
     border-radius:50px;
-    display:none;
 }
-.barra:hover .color{
-    display:block;
+.barra:hover .color{ 
+    background-color:green;
+}
+.barra:hover .pallino{ 
+    opacity:1;
 }
 
 
@@ -420,5 +422,17 @@ footer .barra-volu{
     
 }
 .barra-volu:hover .color{
-    display:block;
+    background-color:green;
+}
+.pallino{
+    margin:-10px 0 0 55px;
+    opacity: 0;
+}
+.secondo-2{
+    margin:-10px 0 0 20px;
+    color:white;
+    opacity:0;
+}
+.barra-volu:hover .secondo-2{ 
+    opacity:1;
 }
