@@ -58,6 +58,19 @@ main .botton-upgrade{
     line-height:40px;
     text-align: center;
 }
+main .botton-upgrade a{
+    color:white;
+}
+/* animazione bottone */
+.botton-upgrade{
+    transition:.5s;
+}
+.botton-upgrade:hover{
+    transform: scale(1.2);
+}
+
+
+
 /* classi side bar */
 main .side-bar{
     display:flex;
@@ -313,7 +326,7 @@ footer .image-content img{
 }
 footer .text-part{
     width:60px;
-    font-size:12px;
+    font-size:10px;
     color:white;
 
 }
@@ -324,7 +337,18 @@ footer .icon-sx{
     width:50px;
     font-size:12px;
     color:gray;
-
+}
+footer .subtitle-sx a{
+    color:gray;
+}
+footer .subtitle-sx a:hover{
+    text-decoration: underline;
+}
+footer .icon-sx a{
+    color:gray;
+}
+footer .icon-sx a:hover{
+    color:white;
 }
 /* secondo container */
 footer .container-icon-center{
@@ -342,7 +366,7 @@ footer .engorgio{
 footer .container-barra-time{
     width:70%;
     height:40px;
-    font-size:12px;
+    font-size:10px;
     color:white;
     display: flex;
     justify-content: space-between;
@@ -364,9 +388,10 @@ footer .icon-dx{
     width:70px;
     font-size:12px;
     display:flex;
-    justify-content: space-between;
-    color:white;
-  
+    color:white; 
+}
+footer .margine{
+    margin-left:5px;
 }
 footer .barra-volume{
     width:100px;
