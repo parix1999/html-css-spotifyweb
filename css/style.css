@@ -294,7 +294,7 @@ footer .icon-dx{
   
 }
 footer .barra-volume{
-    width:80%;
+    width:100px;
     height:50px;
     display:flex;
     align-items: center;;
@@ -302,7 +302,8 @@ footer .barra-volume{
     
 }
 footer .barra-volu{
-    width:100%;
+    width:100px;
+    border-radius:50px;
     height:5px;
     background-color:gray;
     
