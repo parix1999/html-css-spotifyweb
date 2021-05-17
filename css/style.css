@@ -105,19 +105,30 @@ main .plus i{
     width:50px;
 }
 main .install-app img, .john img{
-    width:20px;
+    width:15px;
     vertical-align: middle;
 }
 main .install-app{
     display:flex;
     justify-content: flex-start;
     align-items: flex-end;
+    padding-bottom:10px;
+    border-bottom:1px solid gray;
 }
 main .john img{
     border-radius:50%;
     background-color: gray;
-    height:20px;
+    height:15px;
 }
+main .john{
+    padding-top:10px;
+}
+main .install-app .text-install{
+    padding-left:5px;
+    font-size:12px;
+    color:gray;
+}
+
 
 /* lista side bar e anche inizio page album */
 main ul{
