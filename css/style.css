@@ -451,7 +451,19 @@ footer .barra-volu{
         width:calc(100% / 2 - 30px);
         margin-left:15px;
     }
-    main .text-album{
-    
+    footer .container-icon-center{
+        font-size:10px;
+        justify-content: center;
+        flex-shrink: 1;
+        
     }
+    footer .container-icon-center .fas, .far{
+        margin-left:20px;
+    }
+}
+
+
+
+@media all and (max-width:477px){
+    
 }
