@@ -142,6 +142,16 @@ main .album-content li{
     font-weight:bold;
     color:#76797e;
 }
+/* hover lista nel content album */
+.album-content ul li a{
+    text-decoration: none;
+    color:#6f6f6f;
+}
+.album-content ul li a:hover{
+    color:white;
+}
+
+
 /* inizio classi degli album */
 .clearfix:after{
     content:"";
