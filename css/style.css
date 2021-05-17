@@ -297,7 +297,6 @@ footer{
 footer .left{
     width:50px;
     display:flex;
-    justify-content: space-between;
     align-items: center;
     padding:0 10px 0 10px;
 }
@@ -318,7 +317,7 @@ footer .right{
 /* primo container */
 footer .image-content{
     width:50px;
-    border:1px solid white;
+    margin-right:15px;
 }
 footer .image-content img{
     width:50px;
@@ -326,9 +325,9 @@ footer .image-content img{
 }
 footer .text-part{
     width:60px;
-    font-size:10px;
+    font-size:8px;
+    margin-right:30px;
     color:white;
-
 }
 footer .subtitle-sx{
     color:gray;
@@ -365,7 +364,7 @@ footer .engorgio{
 }
 footer .container-barra-time{
     width:70%;
-    height:40px;
+    height:30px;
     font-size:10px;
     color:white;
     display: flex;
@@ -378,6 +377,18 @@ footer .barra{
     border-radius:50px;
     background-color:gray;
     margin-bottom:5px;
+}
+footer .color{
+    width:25%;
+    height:5px;
+    background-color: green;
+    display:inline-block;
+    margin-bottom:10px;
+    border-radius:50px;
+    display:none;
+}
+.barra:hover .color{
+    display:block;
 }
 
 
@@ -407,4 +418,7 @@ footer .barra-volu{
     height:5px;
     background-color:gray;
     
+}
+.barra-volu:hover .color{
+    display:block;
 }
