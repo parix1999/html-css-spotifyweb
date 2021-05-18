@@ -479,30 +479,11 @@ footer .barra-volu{
         margin:0 5px 0 0;
     }
 }
-@media all and (max-width:480px){
-    main .side-bar{
-        flex-basis: calc((100% / 12) *  1);
-        max-width: calc((100% / 12) *  1);
+@media all and (max-width:360px){
+    main .side-bar .text-list{
+        display:none;
     }
-    main .content-main{
-        flex-basis: calc((100% / 12) * 11);
-        max-width: calc((100% / 12) * 11);
-    }
-    footer .left{
-        flex-basis: calc((100% / 12) * 3);
-        max-width: calc((100% / 12) * 3);
-    }
-    footer .center{
-        flex-basis: calc((100% / 12) * 6);
-        max-width: calc((100% / 12) * 6);
-    }
-    footer .right{
-        flex-basis: calc((100% / 12) * 3);
-        max-width: calc((100% / 12) * 3);
-    }
-    .respo {
-        flex-grow: 1;
-        flex-basis: 0;
-        max-width: 100%;
+    main .side-bar .content-list{
+        display:none;
     }
 }
