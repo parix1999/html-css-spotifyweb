@@ -420,7 +420,7 @@ footer .barra-volu{
     background-color:green;
 }
 .pallino{
-    margin:-10px 0 0 55px;
+    margin:-10% 0 0 90%;
     opacity: 0;
 }
 .secondo-2{
@@ -479,9 +479,30 @@ footer .barra-volu{
         margin:0 5px 0 0;
     }
 }
-
-
-
-@media all and (max-width:477px){
-    
+@media all and (max-width:480px){
+    main .side-bar{
+        flex-basis: calc((100% / 12) *  1);
+        max-width: calc((100% / 12) *  1);
+    }
+    main .content-main{
+        flex-basis: calc((100% / 12) * 11);
+        max-width: calc((100% / 12) * 11);
+    }
+    footer .left{
+        flex-basis: calc((100% / 12) * 3);
+        max-width: calc((100% / 12) * 3);
+    }
+    footer .center{
+        flex-basis: calc((100% / 12) * 6);
+        max-width: calc((100% / 12) * 6);
+    }
+    footer .right{
+        flex-basis: calc((100% / 12) * 3);
+        max-width: calc((100% / 12) * 3);
+    }
+    .respo {
+        flex-grow: 1;
+        flex-basis: 0;
+        max-width: 100%;
+    }
 }
