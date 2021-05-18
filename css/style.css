@@ -486,4 +486,16 @@ footer .barra-volu{
     main .side-bar .content-list{
         display:none;
     }
+    main .buio-re{
+        display:none;
+    }
+    main .luce-re{
+        opacity:1;
+    }
+}
+main .luce-re{
+    opacity:0;
+}
+main .logo img:last-child{
+    width:50px;
 }
